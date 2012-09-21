@@ -54,7 +54,7 @@
             }
         }
         function go() {
-            var num = input.getAttribute('val');
+            var num = input.value;
             window.location = '/?' + num;
         }
     </script>
