@@ -13,7 +13,7 @@
     <h1>TIME CUBE IPSUM</h1>
     <?php
         $num = $_SERVER['QUERY_STRING'];
-        $screeds = file_get_contents('tcipsum.txt').split('\n');
+        $screeds = file('tcipsum.txt');
         $nscreeds = count($screeds);
         for ($i = 0; $i < $num; $i++) {
             echo '<p>' . $screeds[rand(0,$nscreeds)] . '</p>';
