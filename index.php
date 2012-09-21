@@ -6,6 +6,13 @@
     <style>
         body {
             background: url(grid.gif);
+            font-family: 'Times New Roman';
+            font-size: 48px;
+            text-align: center;
+        }
+        p {
+            max-width: 600px;
+            margin: auto;
         }
     </style>
   </head>
