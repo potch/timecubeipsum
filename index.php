@@ -44,7 +44,7 @@
     ?>
     <script>
         var button = document.getElementById('go');
-        var input = document.getElementsById('num');
+        var input = document.getElementById('num');
         button.onclick = function() {
             go();
         };
