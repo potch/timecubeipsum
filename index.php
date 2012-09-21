@@ -24,6 +24,9 @@
             color: #080;
             margin-bottom: 1em;
         }
+        h4 {
+            font-size: 12px;
+        }
     </style>
   </head>
   <body>
@@ -71,5 +74,6 @@
         s.parentNode.insertBefore(t, s);
       })();
     </script>
+    <h4>by <a href="http://twitter.com/potch">potch</a></h4>
   </body>
 </html>
